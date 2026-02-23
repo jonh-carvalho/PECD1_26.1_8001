@@ -1,0 +1,173 @@
+---
+repo_url: https://github.com/jonh-carvalho/PECD1_26_1_8001
+site_author: Jonh Carvalho
+site_name: PECD1_26_1_8001
+copyright: Copyright ©️ 2026, Jonh Carvalho
+
+nav: 
+  - Home: index.md
+  - Disciplina:
+      - Aulas: Disciplina/aulas.md
+#      - React:
+#              - 1 - Introdução: React/01_Intro.md
+#              - 2 - Node.js Vite React: React\02_NodeViteReact.md
+#              - 3 - JSX: React\03_JSX_Sintaxe.md
+#              - 4 - Componentes: React\04_Componentes.md
+#              - 5 - Props: React\05_Props_e_Comunicação.md
+#              - 6 - Estado: React\06_useState.md
+#              - 7 - Eventos: React\07_Eventos_e_Forms.md
+#              - 8 - Listas: React\08_Listas__Render_Condicional.md
+#              - 9 - Http Api: React\09_HTTP_APIs.md
+#              - 10 - useEffect: React\10_useEffect.md
+#              - 11 - Filtros Básicos: React\11_Filtros_Basicos.md
+#              - 12 - Favoritos e Persistência: React\12_Favoritos_localStorage.md
+#              - 13 - Busca Avançada e Refinamentos: React\13_Filtros_Busca.md
+#              - 14 - Rotas (React Router): React\14_Rotas_ReactRouter.md
+#              - 15 - Estilização Avançada: React\15_Estilizacao_Avancada.md
+
+      - Github: Disciplina/github.md
+      - Mkdocs: Disciplina/mkdocs.md
+      - CodeSpace: Disciplina/codespace.md
+#      - Roteiros: 
+#          - Design Thinking: Disciplina/Roteiros/04_design_thinking.md
+#          - AHT: Disciplina/Roteiros/07_aht.md
+#          - Sprint Planning: Disciplina/Roteiros/07_receitas.md
+#          - Epic, Feature, User Story: Disciplina/Roteiros/07_epics_features_user_stories.md
+#          - Protótipo de Baixa Fidelidade: Disciplina/Roteiros/08_proto.md
+#          - JSON Server (CadProj): Disciplina/Roteiros/09_json_server_cadproj.md
+  
+  - Design Thinking:
+      - Index: Design Thinking/index.md
+      - Pesquisa: Design Thinking/pesquisa.md
+      - Cenário: Design Thinking/cenario.md
+      - 5w2h: Design Thinking/5w2h.md
+      - Brainstorming: Design Thinking/brainstorm.md
+      - Mapa Mental: Design Thinking/mapa_mental.md
+      - Design Thinking: Design Thinking/design_thinking.md
+      - Historia de Usuário: Design Thinking/historias_de_usuario.md
+      - Análise de Tarefas: Design Thinking/analise_de_tarefas.md
+      - Prototipagem Baixa Fidelidade: Design Thinking/prototipo_baixa_fidelidade.md
+  - Sprint Planning:
+      - Planejamento: Sprint Planning/planejamento.md
+      - Product Backlog: Sprint Planning/product_backlog.md
+      - Sprint Backlog: Sprint Planning/sprint_backlog.md
+      - Definição de Pronto: Sprint Planning/definicao_de_pronto.md
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  # Tooltips
+  - abbr
+  # Admonitions
+  - admonition
+  # Annotations, Buttons, Grids, Icons & Emojis, Images, Tooltips
+  - attr_list
+  # Footnotes
+  - footnotes
+  # Annotations, Grids, Images
+  - md_in_html
+  # Images
+  - pymdownx.blocks.caption
+  # Formatting
+  - pymdownx.caret
+  # Formatting
+  - pymdownx.critic
+  # Admonitions
+  - pymdownx.details
+  # Icons & Emojis
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji ''
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg ''
+  # Code Blocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  # Code Blocks
+  - pymdownx.inlinehilite
+  # Formatting
+  - pymdownx.keys
+  # Formatting
+  - pymdownx.mark
+  # Code Blocks, Tooltips
+  - pymdownx.snippets
+  # Admonitions, Annotations, Code Blocks, Content Tabs
+  - pymdownx.superfences
+  # Content Tabs
+  - pymdownx.tabbed:
+      alternate_style: true
+  # Lists
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # Formatting
+  - pymdownx.tilde
+  # Data Tables
+
+  - toc:
+      permalink: true
+
+plugins:
+  #- plantuml:
+  #    puml_url: https://www.plantuml.com/plantuml/
+  #    puml_keyword: plantuml
+  - search
+
+theme:
+  favicon: assets/ibmec_icon.png
+  features:
+    - content.code.copy
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+    logo: simple/React
+    favicon: simple/react
+  name: material
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: white
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: white
+      accent: white
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+
+#nav: 
+ # - Home: index.md
+  #- Disciplina:
+   #   -  Aulas: Disciplina/Aulas.md
+    #  -  Github: github.md
+     # -  Mkdocs: mkdocs.md
+      #-  CodeSpace: Codespace.md 
+  #- React: 
+   #   -  Introdução: React/01_Intro.md
+    #  -  Componentes: React/Componentes.md
+     # -  Hooks: React/Hooks.md
+      #-  Context API: React/ContextAPI.md
+      #-  React Router: React/ReactRouter.md
+      #-  Redux: React/Redux.md
