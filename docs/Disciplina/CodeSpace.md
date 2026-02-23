@@ -2,7 +2,7 @@
 
 ## Introdução ao GitHub Codespaces
 
-O GitHub Codespaces é um ambiente de desenvolvimento na nuvem que permite codificar diretamente no seu navegador ou através do Visual Studio Code. Ele oferece uma máquina virtual pré-configurada com todas as ferramentas necessárias para seu projeto.
+O GitHub Codespaces é um ambiente de desenvolvimento na nuvem que permite codificar diretamente no seu navegador ou através do Visual Studio Code. Ele oferece uma máquina virtual pré-configurada com todas as ferramentas necessárias para seu projeto. 
 
 ### Configuração Inicial
 
