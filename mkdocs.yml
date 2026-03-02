@@ -8,6 +8,7 @@ nav:
   - Home: index.md
   - Disciplina:
       - Aulas: Disciplina/aulas.md
+      - Ambiente: Disciplina/ambiente.md
 #      - React:
 #              - 1 - Introdução: React/01_Intro.md
 #              - 2 - Node.js Vite React: React\02_NodeViteReact.md
