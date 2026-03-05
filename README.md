@@ -1,4 +1,4 @@
-# Projeto Front-End
+# Projeto Em Ciência de Dados I
 
 ## Sobre 
 Disciplina que planeja o desenvolvimento de um Front-End a partir de uma demanda externa. 
