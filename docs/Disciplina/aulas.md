@@ -3,9 +3,10 @@
 Aula | Conteúdo
 : --- | --- : 
 **__01__ - 23/02/26** | :material-check: Apresentação da Disciplina <br> :material-check: Processo de Desenvolvimento  - [Do Cascata ao Ágil](../assets/Aulas/Do%20Cascata%20ao%20Ágil.pdf)
+**__02__ - 02/03/26** | :material-check: Configuração de [Ambiente de Desenvolvimento](Disciplina/ambiente.md)
+**__03__ - 09/03/26** | :material-check: [Metodologias Ágeis](../assets/Aulas/Scrum.pdf)
 <!--
-**__02__ - 13/08/25** | :material-check: Configuração de [Ambiente de Desenvolvimento](https://liveestacio-my.sharepoint.com/:w:/g/personal/00661711722_professores_ibmec_edu_br/EU2fCcJwgTFLvWNyOSUtNWABnf7xw5XPoNRumYUMMtNMwA?e=bIE0li)
-**__03__ - 20/08/25** | :material-check: [Metodologias Ágeis](../assets/Aulas/Scrum.pdf)
+
 **__04__ - 27/08/25** | [Scrum](../assets/Aulas/Mapa+do+Scrum+Framework+utilizado+nas+aulas.pdf) <br> :material-check: Roteiro Git
 **__05__ - 03/09/25** | :material-check: Apresentação de Tema do Projeto, Principais Funcionalidades do Projeto, App Web Similares <br> :material-check: Site Mkdocs  <br> :material-check: Configuração repositório Github <br> :material-check: Design Thinking
 **__06__ - 10/09/25** | IbmecDay
