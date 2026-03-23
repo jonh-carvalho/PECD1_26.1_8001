@@ -29,8 +29,8 @@ nav:
       - Github: Disciplina/github.md
       - Mkdocs: Disciplina/mkdocs.md
       - CodeSpace: Disciplina/codespace.md
-#      - Roteiros: 
-#          - Design Thinking: Disciplina/Roteiros/04_design_thinking.md
+      - Roteiros: 
+          - Design Thinking: Disciplina/Roteiros/04_design_thinking.md
 #          - AHT: Disciplina/Roteiros/07_aht.md
 #          - Sprint Planning: Disciplina/Roteiros/07_receitas.md
 #          - Epic, Feature, User Story: Disciplina/Roteiros/07_epics_features_user_stories.md
