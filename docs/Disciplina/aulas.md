@@ -7,11 +7,11 @@ Aula | Conteúdo
 **__03__ - 09/03/26** | :material-check: [Scrum](../assets/Aulas/Mapa+do+Scrum+Framework+utilizado+nas+aulas.pdf) - [Metodologias Ágeis](../assets/Aulas/Scrum.pdf)
 **__04__ - 16/03/26** | :material-check: Apresentação de Tema do Projeto, Principais Funcionalidades do Projeto, App Web Similares 
 **__05__ - 23/09/26** | :material-check: Site Mkdocs  <br> :material-check: Configuração repositório Github <br> :material-check: Design Thinking
-**__06__ - 30/03/26** | :material-check:
+**__06__ - 30/03/26** | :material-check: 5w2h <br> :material-check:[Brainstorm](../assets/Aulas/O%20processo%20de brainstorm.pdf) <br> :material-check: [Mapa Mental](../assets/Aulas/Mapa%20Mental.pdf)
 <!--
 
 **__06__ - 10/09/25** | IbmecDay
-**__07__ - 17/09/25** | :material-check: [Brainstorm](../assets/Aulas/O%20processo%20de brainstorm.pdf) <br> :material-check: [Mapa Mental](../assets/Aulas/Mapa%20Mental.pdf) <br> [Análise de Tarefas - AHT](../assets/Aulas/Análise%20de%20Tarefas.pdf) <br> - [Roteiro](./Roteiros/07_epics_features_user_stories.md) 
+**__07__ - 17/09/25** |  <br> [Análise de Tarefas - AHT](../assets/Aulas/Análise%20de%20Tarefas.pdf) <br> - [Roteiro](./Roteiros/07_epics_features_user_stories.md) 
 **__08__ - 24/09/25** | :material-check: Protótipo de Baixa Fidelidade
 **__09__ - 01/10/25** | :material-check: AP1 - Apresentação
 **__10__ - 08/10/25** | :material-check: Roteiros - Introdução ao React

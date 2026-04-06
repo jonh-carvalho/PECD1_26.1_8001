@@ -1,0 +1,81 @@
+@startmindmap
+* AAC - Sistema
+-- Objetivo
+--- Controle
+--- Visibilidade
+--- Validacao
+--- Conclusao sem bloqueio
+-- Usuarios
+--- Aluno
+--- Avaliador
+--- Coordenacao
+--- Secretaria
+** Regras
+*** Eixos
+**** Ensino
+**** Pesquisa
+**** Extensao
+*** Estagio obrigatorio: nao conta
+*** Estagio nao obrigatorio: com limite
+*** Interna x Externa
+*** Externa exige
+**** Entidade emissora
+**** Carga horaria
+**** Data
+**** QR ou link
+*** Pessoa fisica: rejeitar
+*** Antes do ingresso: rejeitar
+** Limites
+*** Estagio nao obrigatorio: 100h
+*** Monitoria: 100h
+*** Idiomas: 30h
+*** Defesa TCC: 10h
+*** Outros: regulamento
+** Fluxo Aluno
+*** Escolhe tipo
+*** Envia comprovante
+*** Preenche dados
+*** Validacao automatica
+*** Fila de analise
+*** Resultado
+**** Aprovado
+**** Indeferido
+**** Ajuste
+*** Horas atualizadas
+** Fluxo Coordenacao
+*** Define regras
+*** Monitora fila
+*** Monitora SLA
+*** Acompanha risco
+*** Fecha semestre
+** MVP
+*** Login
+*** Submissao
+*** Anexos
+*** Regras basicas
+*** Parecer com motivo
+*** Dashboard de horas
+** Diferenciais
+*** OCR certificado
+*** Verificacao QR
+*** Motor de regras
+*** Recomendador de cursos
+*** Simulador "E se"
+*** Risco preditivo
+** Indicadores
+*** Tempo de validacao
+*** Taxa de indeferimento
+*** Alunos >= 80%
+*** Bloqueio de colacao
+*** Satisfacao
+** Riscos
+*** Fraude documental
+*** Gargalo na fila
+*** Regras por curso
+*** Baixa adesao inicial
+** Mitigacoes
+*** Auditoria amostral
+*** Triagem automatica
+*** Regras versionadas
+*** Alertas e notificacoes
+@endmindmap
