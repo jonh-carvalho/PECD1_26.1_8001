@@ -32,7 +32,7 @@ hide:
 
     ---
 
-    XXXXX XXX, XXXX XXXX, XXXX XXXX
+    Matheus, Julia, Carlos, Bernardo, Leonardo e Pietro
 
     [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PECD1_26.1_8001_I)
 
@@ -40,7 +40,7 @@ hide:
 
     ---
 
-    XXXXX XXX, XXXX XXXX, XXXX XXXX
+    Gabriel Valle, Guilherme, Antonni, Gabriel, Artur e Bernardo
 
     [:octicons-arrow-right-24: Repositório](https://github.com/Projetos-de-Extensao/PECD1_26.1_8001_II)
 
