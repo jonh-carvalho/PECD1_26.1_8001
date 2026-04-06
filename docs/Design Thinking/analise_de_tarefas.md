@@ -1,4 +1,4 @@
-## Análise de Tarefa
+## Análise de Tarefa i
 
 A análise hierárquica de tarefas (AHT) é uma técnica utilizada para decompor e entender as atividades que um usuário realiza ao interagir com uma aplicação ou sistema. Sua principal função é detalhar, de forma estruturada, as metas, tarefas e ações envolvidas no uso do produto, permitindo identificar pontos críticos, oportunidades de melhoria e necessidades específicas das personas.
 
