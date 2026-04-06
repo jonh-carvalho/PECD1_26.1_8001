@@ -45,7 +45,7 @@ nav:
       - Brainstorming: Design Thinking/brainstorm.md
       - Mapa Mental: Design Thinking/mapa_mental.md
       - Design Thinking: Design Thinking/design_thinking.md
-      - Historia de Usuário: Design Thinking/historias_de_usuario.md
+      - História de Usuário: Design Thinking/historia_de_usuario.md
       - Análise de Tarefas: Design Thinking/analise_de_tarefas.md
       - Prototipagem Baixa Fidelidade: Design Thinking/prototipo_baixa_fidelidade.md
   - Sprint Planning:
@@ -109,9 +109,9 @@ markdown_extensions:
       permalink: true
 
 plugins:
-  #- plantuml:
-  #    puml_url: https://www.plantuml.com/plantuml/
-  #    puml_keyword: plantuml
+  - plantuml:
+      puml_url: https://www.plantuml.com/plantuml/
+      puml_keyword: plantuml
   - search
 
 theme:
