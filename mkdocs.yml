@@ -31,10 +31,10 @@ nav:
       - CodeSpace: Disciplina/codespace.md
       - Roteiros: 
           - Design Thinking: Disciplina/Roteiros/04_design_thinking.md
-#          - AHT: Disciplina/Roteiros/07_aht.md
-#          - Sprint Planning: Disciplina/Roteiros/07_receitas.md
-#          - Epic, Feature, User Story: Disciplina/Roteiros/07_epics_features_user_stories.md
-#          - Protótipo de Baixa Fidelidade: Disciplina/Roteiros/08_proto.md
+          - AHT: Disciplina/Roteiros/07_aht.md
+          - Sprint Planning: Disciplina/Roteiros/07_receitas.md
+          - Epic, Feature, User Story: Disciplina/Roteiros/07_epics_features_user_stories.md
+          - Protótipo de Baixa Fidelidade: Disciplina/Roteiros/07_proto.md
 #          - JSON Server (CadProj): Disciplina/Roteiros/09_json_server_cadproj.md
   
   - Design Thinking:
