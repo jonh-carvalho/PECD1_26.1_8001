@@ -11,35 +11,17 @@ Aula | Conteúdo
 **__07__ - 06/04/25** |  <br> [Análise de Tarefas - AHT](../assets/Aulas/Análise%20de%20Tarefas.pdf) <br> - [Roteiro](./Roteiros/07_epics_features_user_stories.md) <br> :material-check: Protótipo de Baixa Fidelidade
 **__08__ - 13/04/26** | :material-check: AP1 - Apresentação
 **__09__ - 20/04/26** | :material-check: Feriado 
-**__10__ - 27/04/26** | :material-check: Roteiros - Introdução ao React - **Sprint I** - Site HTML/CSS/
-**__11__ - 04/05/26** | :material-check: 
-**__12__ - 11/05/26** | :material-check: Roteiros React - Props e State - **Sprint II** - Site React Componentes 
-**__13__ - 18/05/26** | :material-check: 
-**__14__ - 25/05/26** | :material-check: Roteiros React - Filtros - Sprint III - Site React Props e State
+**__10__ - 27/04/26** | :material-check: Roteiros - Introdução ao React - <br> **Sprint I** - Site HTML/CSS/
+**__11__ - 04/05/26** | :material-check:[Front-End Checklist](https://frontendchecklist.io/) <br>:material-check: Validação HTML, CSS, Link <br>:material-check: [Wcag](https://www.guia-wcag.com/)
+**__12__ - 11/05/26** | :material-check: Roteiros React - Props e State - <br> **Sprint II** - Site React Componentes 
+**__13__ - 18/05/26** | :material-check: [Avaliação de Interfaces](../assets/Aulas/Avaliação_de_Interfaces.pdf)
+**__14__ - 25/05/26** | :material-check: Roteiros React - Filtros <br>  Sprint III - Site React Props e State
 **__15__ - 01/06/26** | :material-check: 
 **__16__ - 08/06/26** | :material-check: Sprint IV - 
 **__17__ - 15/06/26** | :material-check: **AP2 - Apresentação**
 **__18__ - 22/06/26** | :material-check: 
 **__19__ - 29/06/26** | :material-check: AS
 
-<!--
-
-**__06__ - 10/09/25** | IbmecDay
-**__07__ - 17/09/25** |  <br> [Análise de Tarefas - AHT](../assets/Aulas/Análise%20de%20Tarefas.pdf) <br> - [Roteiro](./Roteiros/07_epics_features_user_stories.md) 
-**__08__ - 24/09/25** | :material-check: Protótipo de Baixa Fidelidade
-**__09__ - 01/10/25** | :material-check: AP1 - Apresentação
-**__10__ - 08/10/25** | :material-check: Roteiros - Introdução ao React
-**__11__ - 15/10/25** | :material-check: **FERIADO** - Sprint II - React - Site HTML/CSS/
-**__12__ - 22/10/25** | :material-check: Roteiros React - Props e State  
-**__13__ - 29/10/25** | :material-check: Recesso 
-**__14__ - 05/11/25** | :material-check: Roteiros React - Filtros
-**__15__ - 12/11/25** | :material-check: Sprint IV - React/Componentes
-**__16__ - 19/11/25** | :material-check: **AP2 - Apresentação - Sprint IV**
-**__17__ - 26/11/25** | :material-check: 
-**__18__ - 03/12/25** | :material-check: AS
--->
-
- 
 <!--
 | Aula          - | Conteúdo |
 | ---- | -------- |
