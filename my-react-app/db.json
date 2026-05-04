@@ -1,0 +1,26 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "type": "Palestra",
+      "title": "SXSW: Inovação, tecnologia e criatividade",
+      "description": "Encontro com especialistas para discutir tendências de inovação.",
+      "location": "Auditório Barra",
+      "date": "2026-05-12",
+      "time": "19:00",
+      "durationHours": 4,
+      "inscritosCount": 1
+    },
+    {
+      "id": 2,
+      "type": "Workshop",
+      "title": "Workshop de Portfólio Criativo",
+      "description": "Atividade prática para estudantes estruturarem portfólios profissionais.",
+      "location": "Laboratório de Prototipagem",
+      "date": "2026-05-20",
+      "time": "14:00",
+      "durationHours": 3,
+      "inscritosCount": 0
+    }
+  ]
+}

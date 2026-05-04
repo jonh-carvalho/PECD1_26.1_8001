@@ -1,16 +1,50 @@
-# React + Vite
+# Gestor de Eventos - Front-end React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação visual inspirada no estilo de dashboard do site de referência, com cadastro e listagem de eventos.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React + Vite
+- JSON Server para API local
+- CSS customizado
 
-## React Compiler
+## Como executar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Instale as dependências:
 
-## Expanding the ESLint configuration
+```bash
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Rode front-end e API juntos:
+
+```bash
+npm run dev:all
+```
+
+3. Abra no navegador:
+
+- Front-end: http://localhost:5173
+- API local: http://localhost:3001/events
+
+## Scripts
+
+- `npm run dev`: inicia apenas o Vite
+- `npm run server`: inicia apenas o JSON Server
+- `npm run dev:all`: inicia Vite + JSON Server
+- `npm run lint`: executa ESLint
+- `npm run build`: gera build de produção
+
+## Estrutura principal
+
+- `src/App.jsx`: orquestra as visões e integra os serviços
+- `src/components`: componentes de layout, cards, lista e formulário
+- `src/services.js`: chamadas HTTP para API local
+- `db.json`: base inicial de eventos
+
+## Fluxo disponível nesta versão
+
+- Visual de dashboard com sidebar
+- KPIs de eventos, inscritos e horas
+- Listagem de eventos
+- Cadastro de novo evento com persistência na API local
