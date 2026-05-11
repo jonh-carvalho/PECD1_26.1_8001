@@ -13,8 +13,8 @@ nav:
               - 2 - Node.js Vite React: React\02_NodeViteReact.md
               - 3 - JSX: React\03_JSX_Sintaxe.md
               - 4 - Componentes: React\04_Componentes.md
-#              - 5 - Props: React\05_Props_e_Comunicação.md
-#              - 6 - Estado: React\06_useState.md
+              - 5 - Props: React\05_Props_e_Comunicação.md
+              - 6 - Estado: React\06_useState.md
 #              - 7 - Eventos: React\07_Eventos_e_Forms.md
 #              - 8 - Listas: React\08_Listas__Render_Condicional.md
 #              - 9 - Http Api: React\09_HTTP_APIs.md
