@@ -5,7 +5,7 @@ title: 13 - Consolidação de Filtros e Busca
 
 # 13 - Consolidação de Filtros e Busca
 
-Este módulo fecha a etapa de listagem da aplicação. O foco é combinar busca, região e favoritos em um fluxo claro de uso, sem avançar para funcionalidades excessivamente complexas.
+Este módulo **fecha a etapa de listagem** da aplicação. Vamos consolidar tudo que aprendemos: favoritos persistentes (12), filtros básicos (11), e estado (08), criando uma experiência final polida e profissional. No próximo módulo, estruturaremos rotas.
 
 ## Objetivos do Módulo
 

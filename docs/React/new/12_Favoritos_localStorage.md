@@ -5,7 +5,7 @@ title: 12 - Favoritos e Persistência com localStorage
 
 # 12 - Favoritos e Persistência com localStorage
 
-Neste módulo, o foco é salvar e restaurar favoritos no navegador. A lógica de busca e filtro permanece simples e não será expandida aqui.
+Nos módulos anteriores, criamos favoritos (08) e filtros (11), mas os favoritos desapareciam ao recarregar a página. Neste módulo, vamos **salvar os favoritos no navegador usando localStorage** para que persistam entre sessões.
 
 ## Objetivos do Módulo
 

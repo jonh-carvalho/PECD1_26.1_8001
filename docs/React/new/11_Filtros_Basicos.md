@@ -5,7 +5,7 @@ title: 11 - Filtros Básicos
 
 # 11 - Filtros Básicos
 
-Neste módulo, o foco é implementar busca por nome e filtro por região de forma simples. Persistência e busca avançada ficam para módulos posteriores.
+Até agora tínhamos todos os países visíveis. Neste módulo, o foco é implementar a **primeira camada de filtros**: busca por nome em tempo real e filtro por região. Persistência (localStorage) e consolidação avançada ficam para módulos posteriores.
 
 ## Objetivos do Módulo
 
