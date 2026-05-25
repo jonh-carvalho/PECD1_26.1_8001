@@ -5,7 +5,7 @@ title: 14 - Rotas com React Router
 
 # 14 - Rotas com React Router
 
-Vamos adicionar navegação real à nossa aplicação com o React Router: páginas, links, rotas dinâmicas (detalhes do país), página 404, layout compartilhado e navegação programática.
+Vamos adicionar navegação real à nossa aplicação com o React Router: páginas, links, rotas dinâmicas (detalhes do país), página 404, layout compartilhado e navegação programática, mantendo a mesma fonte de dados do Módulo 09 (API do IBGE mapeada para o app).
 
 ---
 
@@ -126,7 +126,7 @@ function Layout() {
 
       <footer className="footer">
         <p>
-          Dados por <a href="https://restcountries.com" target="_blank" rel="noreferrer">REST Countries</a>
+          Dados por <a href="https://servicodados.ibge.gov.br/api/docs" target="_blank" rel="noreferrer">API do IBGE</a>
         </p>
       </footer>
     </div>
@@ -152,7 +152,7 @@ function Home() {
   const { countries, isLoading, error } = useCountries();
   const [search, setSearch] = useState('');
   const filtered = countries.filter(c => 
-    c.name.common.toLowerCase().includes(search.toLowerCase())
+    c.name.toLowerCase().includes(search.toLowerCase())
   );
 
   if (isLoading) return <p>Carregando...</p>;
@@ -170,8 +170,8 @@ function Home() {
       <div className="countries-grid">
         {filtered.map(country => (
           <div key={country.cca3} className="country-card">
-            <img src={country.flags.png} alt={country.name.common} />
-            <h3>{country.name.common}</h3>
+            <img src={country.flag} alt={country.name} />
+            <h3>{country.name}</h3>
             <p>🌎 {country.region}</p>
             <Link 
               to={`/pais/${country.cca3}`} 
@@ -189,7 +189,7 @@ function Home() {
 export default Home;
 ```
 
-Dica: passamos o país via `state` no Link para evitar novo fetch quando possível.
+Dica: passamos o país via state no Link para evitar nova busca e manter consistência com os dados já carregados da API do IBGE.
 
 ---
 
@@ -229,7 +229,7 @@ function Favorites() {
           {favoriteCountries.map(c => (
             <li key={c.cca3}>
               <Link to={`/pais/${c.cca3}`} state={{ country: c }}>
-                {c.flag} {c.name.common}
+                <img src={c.flag} alt={c.name} width="20" /> {c.name}
               </Link>
             </li>
           ))}
@@ -246,58 +246,45 @@ export default Favorites;
 
 ## 7. Detalhes do País: rota dinâmica
 
-Usaremos `useParams` para ler o `:code`. Se o país vier no `state`, usamos direto; caso contrário, buscamos por código.
+Usaremos useParams para ler o :code. Se o país vier no state, usamos direto; caso contrário, buscamos na lista já carregada pelo hook useCountries (que já usa a API do IBGE).
 
 ```jsx
 // src/pages/CountryDetails.jsx
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
+import useCountries from '../hooks/useCountries';
 
 function CountryDetails() {
   const { code } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
   const countryFromState = location.state?.country;
+  const { countries, isLoading, error } = useCountries();
 
-  const [country, setCountry] = useState(countryFromState || null);
-  const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(!countryFromState);
+  const country = useMemo(() => {
+    if (countryFromState) return countryFromState;
+    return countries.find((item) => item.cca3 === code?.toUpperCase()) || null;
+  }, [countryFromState, countries, code]);
 
-  useEffect(() => {
-    const fetchByCode = async () => {
-      try {
-        setLoading(true);
-        const res = await fetch(`https://restcountries.com/v3.1/alpha/${code}`);
-        if (!res.ok) throw new Error(`Erro: ${res.status}`);
-        const data = await res.json();
-        setCountry(data[0]);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
+  const population = useMemo(() => {
+    if (!country || !country.population) return 'N/A';
+    return new Intl.NumberFormat('pt-BR').format(country.population);
+  }, [country]);
 
-    if (!countryFromState) fetchByCode();
-  }, [code, countryFromState]);
-
-  const population = useMemo(() => country ?
-    new Intl.NumberFormat('pt-BR').format(country.population) : '—', [country]);
-
-  if (loading) return <p>Carregando detalhes...</p>;
-  if (error) return <p>Erro: {error}</p>;
+  if (!countryFromState && isLoading) return <p>Carregando detalhes...</p>;
+  if (!country && error) return <p>Erro: {error}</p>;
   if (!country) return <p>País não encontrado.</p>;
 
   return (
     <div>
       <button onClick={() => navigate(-1)}>⬅️ Voltar</button>
-      <h1>{country.flag} {country.name.common}</h1>
-      <img src={country.flags.png} alt={country.name.common} />
+      <h1>{country.name}</h1>
+      <img src={country.flag} alt={country.name} />
       <ul>
-        <li>📍 Capital: {country.capital?.[0] || 'N/A'}</li>
+        <li>📍 Capital: {country.capital || 'N/A'}</li>
         <li>🌎 Região: {country.region} ({country.subregion})</li>
         <li>👥 População: {population}</li>
-        <li>📏 Área: {new Intl.NumberFormat('pt-BR').format(country.area)} km²</li>
+        <li>📏 Área: {country.area ? `${new Intl.NumberFormat('pt-BR').format(country.area)} km²` : 'N/A'}</li>
       </ul>
     </div>
   );

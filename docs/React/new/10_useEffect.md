@@ -17,12 +17,19 @@ Neste módulo, vamos automatizar o carregamento da API quando a tela abre. O foc
 ## Pré-requisitos
 
 - Consumo de API com fetch
+- Noções de Promise, async/await e try/catch/finally
 - useState para estados da tela
 - Estrutura da Lista de Países
 
 ## Conceito Principal
 
 useEffect executa efeitos colaterais após a renderização. Com array vazio, roda uma vez na montagem, ideal para buscar dados iniciais.
+
+## Conexão com o Módulo 09
+
+No módulo 09, a requisição era disparada por botão. Agora a mesma lógica vai rodar automaticamente ao abrir a tela.
+
+Regra importante: o callback do `useEffect` não deve ser `async` diretamente. O padrão é criar uma função `async` interna e chamá-la dentro do efeito.
 
 ## Exemplo Guiado
 

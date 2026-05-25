@@ -20,6 +20,32 @@ Neste módulo, vamos sair dos dados locais e carregar informações reais da web
 - Arrays e métodos map e filter
 - Estrutura básica da Lista de Países
 
+## Base Rápida Antes da API
+
+Antes de consumir API no React, revise estes 3 conceitos:
+
+1. **Promise**: representa um resultado futuro de uma operação assíncrona.
+2. **async/await**: forma mais legível de trabalhar com Promise.
+3. **try/catch/finally**: bloco para tratar sucesso, erro e finalização.
+
+```js
+// Promise simplificada
+const promessa = fetch('https://restcountries.com/v3.1/all');
+
+// async/await + tratamento de erro
+async function exemplo() {
+  try {
+    const response = await promessa;
+    const data = await response.json();
+    console.log(data.length);
+  } catch (error) {
+    console.error(error);
+  } finally {
+    console.log('Requisição finalizada');
+  }
+}
+```
+
 ## Conceito Principal
 
 APIs reais retornam dados em formato diferente do seu componente. O mapeamento é a etapa que transforma a resposta da API no formato usado pela interface.
