@@ -1,5 +1,5 @@
 ---
-id: 01_Intro
+id: introreact
 title: 01 - Introdução ao React com HTML e CDN
 ---
 
@@ -102,21 +102,3 @@ Crie o arquivo `app.js` com o seguinte código:
     ),
     document.getElementById('root'))
 ```
-
----
-
-#### **Ponte para o Próximo Módulo (CDN -> Vite)**
-
-Neste primeiro contato, usamos CDN para aprender React sem instalar ferramentas. No próximo módulo, vamos migrar para um projeto profissional com Vite.
-
-**O que muda na prática:**
-
-- Em vez de um único HTML com script manual, teremos estrutura de projeto com `src/` e `public/`
-- Em vez de `ReactDOM.render(...)`, usaremos ponto de entrada com `main.jsx`
-- Em vez de editar tudo em um arquivo solto, passaremos a trabalhar com componentes e arquivos separados
-
-**Checklist de saída deste módulo:**
-
-- Entendi o que é React e Virtual DOM
-- Consegui renderizar um elemento React em uma página HTML
-- Estou pronto para configurar ambiente com Node + Vite

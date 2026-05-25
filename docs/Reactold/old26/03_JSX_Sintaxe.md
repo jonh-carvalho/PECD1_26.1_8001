@@ -1,5 +1,5 @@
 ---
-id: 03_JSX_Sintaxe
+id: jsx
 title: 03 - JSX e Sintaxe do React
 ---
 # 03 - **JSX e Sintaxe do React**

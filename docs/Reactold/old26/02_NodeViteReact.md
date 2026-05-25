@@ -1,18 +1,9 @@
 ---
-id: 02_NodeViteReact
+id: introreact
 title: 02 - Criando um App React com Vite
 ---
 
 # **Criando um App React com Vite**
-
-### **Transição do módulo anterior**
-
-No módulo 01, usamos React por CDN para foco total nos conceitos iniciais. Agora vamos para o fluxo real de desenvolvimento: projeto local com Node.js, Vite e organização profissional de arquivos.
-
-**Resumo da mudança de ambiente:**
-
-- Antes: HTML + scripts CDN
-- Agora: projeto React com build tool, servidor de desenvolvimento e estrutura escalável
 
 
 ### **Por que usar [Vite](https://vite.dev/)?**
@@ -20,13 +11,6 @@ No módulo 01, usamos React por CDN para foco total nos conceitos iniciais. Agor
 Vite é uma ferramenta de construção de front-end que oferece um desenvolvimento rápido e uma experiência de usuário aprimorada, especialmente para projetos React. Ela é mais leve e rápida que ferramentas como Webpack, proporcionando hot module replacement (HMR) quase instantâneo.
 
 ### **Criando o Projeto**
-
-**Resultado esperado deste módulo:**
-
-- Criar um projeto React funcional com Vite
-- Entender a estrutura mínima de pastas
-- Executar o app com `npm run dev`
-- Editar `src/App.jsx` e visualizar atualização no navegador
 
 **1. Instale o Node.js e npm (ou yarn):**
 
