@@ -16,19 +16,19 @@
         
       
       
-      <link rel="icon" href="../../assets/ibmec_icon.png">
+      <link rel="icon" href="../../../assets/ibmec_icon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
     
     
       
-        <title>11 - Filtros Básicos - PECD1_26.1_8001</title>
+        <title>01 - Introdução ao React com HTML e CDN - PECD1_26.1_8001</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,13 +47,13 @@
       
     
     
-      <link rel="stylesheet" href="../../css/extra.css">
+      <link rel="stylesheet" href="../../../css/extra.css">
     
-      <link rel="stylesheet" href="../../assets/mkdocs_puml/puml.css">
+      <link rel="stylesheet" href="../../../assets/mkdocs_puml/puml.css">
     
-      <link rel="stylesheet" href="../../assets/mkdocs_puml/interaction.css">
+      <link rel="stylesheet" href="../../../assets/mkdocs_puml/interaction.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#11-filtros-basicos" class="md-skip">
+        <a href="#react-com-html-e-cdn" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="PECD1_26.1_8001" class="md-header__button md-logo" aria-label="PECD1_26.1_8001" data-md-component="logo">
+    <a href="../../.." title="PECD1_26.1_8001" class="md-header__button md-logo" aria-label="PECD1_26.1_8001" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236m2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38a2.17 2.17 0 0 0-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44a23.5 23.5 0 0 0-3.107-.534A24 24 0 0 0 12.769 4.7c1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442a23 23 0 0 0-3.113.538 15 15 0 0 1-.254-1.42c-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05q.684.704 1.36 1.564c-.44-.02-.89-.034-1.345-.034q-.691-.001-1.36.034c.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093q.61.874 1.183 1.86.557.961 1.018 1.946c-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87a25.6 25.6 0 0 1-4.412.005 27 27 0 0 1-1.183-1.86q-.557-.961-1.018-1.946a25 25 0 0 1 1.013-1.954c.38-.66.773-1.286 1.18-1.868A25 25 0 0 1 12 8.098zm-3.635.254c-.24.377-.48.763-.704 1.16q-.336.585-.635 1.174c-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0q1.044.153 2.006.387c-.18.632-.405 1.282-.66 1.933a25.952 25.952 0 0 0-1.345-2.32zm3.063.675q.727.226 1.375.498c1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493a24 24 0 0 0-1.1-2.98c.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98a23 23 0 0 0-1.086 2.964c-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474s1.12-1.742 2.852-2.476c.42-.18.88-.342 1.356-.494m11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39a26 26 0 0 0 1.341-2.338zm-9.945.02c.2.392.41.783.64 1.175q.345.586.705 1.143a22 22 0 0 1-2.006-.386c.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295a1.2 1.2 0 0 1-.553-.132c-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64q.661.032 1.345.034.691.001 1.36-.034c-.44.572-.895 1.095-1.345 1.565q-.684-.706-1.36-1.565"/></svg>
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              11 - Filtros Básicos
+              01 - Introdução ao React com HTML e CDN
             
           </span>
         </div>
@@ -240,7 +240,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
   
@@ -261,7 +261,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../Disciplina/aulas/" class="md-tabs__link">
+        <a href="../../../Disciplina/aulas/" class="md-tabs__link">
           
   
   
@@ -283,7 +283,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../Design%20Thinking/" class="md-tabs__link">
+        <a href="../../../Design%20Thinking/" class="md-tabs__link">
           
   
   
@@ -305,7 +305,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../Sprint%20Planning/planejamento/" class="md-tabs__link">
+        <a href="../../../Sprint%20Planning/planejamento/" class="md-tabs__link">
           
   
   
@@ -343,7 +343,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="PECD1_26.1_8001" class="md-nav__button md-logo" aria-label="PECD1_26.1_8001" data-md-component="logo">
+    <a href="../../.." title="PECD1_26.1_8001" class="md-nav__button md-logo" aria-label="PECD1_26.1_8001" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236m2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38a2.17 2.17 0 0 0-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44a23.5 23.5 0 0 0-3.107-.534A24 24 0 0 0 12.769 4.7c1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442a23 23 0 0 0-3.113.538 15 15 0 0 1-.254-1.42c-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05q.684.704 1.36 1.564c-.44-.02-.89-.034-1.345-.034q-.691-.001-1.36.034c.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093q.61.874 1.183 1.86.557.961 1.018 1.946c-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87a25.6 25.6 0 0 1-4.412.005 27 27 0 0 1-1.183-1.86q-.557-.961-1.018-1.946a25 25 0 0 1 1.013-1.954c.38-.66.773-1.286 1.18-1.868A25 25 0 0 1 12 8.098zm-3.635.254c-.24.377-.48.763-.704 1.16q-.336.585-.635 1.174c-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0q1.044.153 2.006.387c-.18.632-.405 1.282-.66 1.933a25.952 25.952 0 0 0-1.345-2.32zm3.063.675q.727.226 1.375.498c1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493a24 24 0 0 0-1.1-2.98c.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98a23 23 0 0 0-1.086 2.964c-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474s1.12-1.742 2.852-2.476c.42-.18.88-.342 1.356-.494m11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39a26 26 0 0 0 1.341-2.338zm-9.945.02c.2.392.41.783.64 1.175q.345.586.705 1.143a22 22 0 0 1-2.006-.386c.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295a1.2 1.2 0 0 1-.553-.132c-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64q.661.032 1.345.034.691.001 1.36-.034c-.44.572-.895 1.095-1.345 1.565q-.684-.706-1.36-1.565"/></svg>
@@ -373,7 +373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -466,7 +466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/aulas/" class="md-nav__link">
+      <a href="../../../Disciplina/aulas/" class="md-nav__link">
         
   
   
@@ -558,7 +558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../01_Intro/" class="md-nav__link">
+      <a href="../../../React/01_Intro/" class="md-nav__link">
         
   
   
@@ -586,7 +586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../02_NodeViteReact/" class="md-nav__link">
+      <a href="../../../React/02_NodeViteReact/" class="md-nav__link">
         
   
   
@@ -614,7 +614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../03_JSX_Sintaxe/" class="md-nav__link">
+      <a href="../../../React/03_JSX_Sintaxe/" class="md-nav__link">
         
   
   
@@ -642,7 +642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../04_Componentes/" class="md-nav__link">
+      <a href="../../../React/04_Componentes/" class="md-nav__link">
         
   
   
@@ -670,7 +670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../05_Props_e_Comunica%C3%A7%C3%A3o/" class="md-nav__link">
+      <a href="../../../React/05_Props_e_Comunica%C3%A7%C3%A3o/" class="md-nav__link">
         
   
   
@@ -698,7 +698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../06_useState/" class="md-nav__link">
+      <a href="../../../React/06_useState/" class="md-nav__link">
         
   
   
@@ -734,7 +734,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/ambiente/" class="md-nav__link">
+      <a href="../../../Disciplina/ambiente/" class="md-nav__link">
         
   
   
@@ -762,7 +762,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/github/" class="md-nav__link">
+      <a href="../../../Disciplina/github/" class="md-nav__link">
         
   
   
@@ -790,7 +790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/mkdocs/" class="md-nav__link">
+      <a href="../../../Disciplina/mkdocs/" class="md-nav__link">
         
   
   
@@ -818,7 +818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/codespace/" class="md-nav__link">
+      <a href="../../../Disciplina/codespace/" class="md-nav__link">
         
   
   
@@ -908,7 +908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/Roteiros/04_design_thinking/" class="md-nav__link">
+      <a href="../../../Disciplina/Roteiros/04_design_thinking/" class="md-nav__link">
         
   
   
@@ -936,7 +936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/Roteiros/07_aht/" class="md-nav__link">
+      <a href="../../../Disciplina/Roteiros/07_aht/" class="md-nav__link">
         
   
   
@@ -964,7 +964,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/Roteiros/07_receitas/" class="md-nav__link">
+      <a href="../../../Disciplina/Roteiros/07_receitas/" class="md-nav__link">
         
   
   
@@ -992,7 +992,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/Roteiros/07_epics_features_user_stories/" class="md-nav__link">
+      <a href="../../../Disciplina/Roteiros/07_epics_features_user_stories/" class="md-nav__link">
         
   
   
@@ -1020,7 +1020,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Disciplina/Roteiros/07_proto/" class="md-nav__link">
+      <a href="../../../Disciplina/Roteiros/07_proto/" class="md-nav__link">
         
   
   
@@ -1102,7 +1102,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../Design%20Thinking/" class="md-nav__link ">
+            <a href="../../../Design%20Thinking/" class="md-nav__link ">
               
   
   
@@ -1146,7 +1146,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Design%20Thinking/pesquisa/" class="md-nav__link">
+      <a href="../../../Design%20Thinking/pesquisa/" class="md-nav__link">
         
   
   
@@ -1174,7 +1174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Design%20Thinking/cenario/" class="md-nav__link">
+      <a href="../../../Design%20Thinking/cenario/" class="md-nav__link">
         
   
   
@@ -1202,7 +1202,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Design%20Thinking/5w2h/" class="md-nav__link">
+      <a href="../../../Design%20Thinking/5w2h/" class="md-nav__link">
         
   
   
@@ -1230,7 +1230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Design%20Thinking/brainstorm/" class="md-nav__link">
+      <a href="../../../Design%20Thinking/brainstorm/" class="md-nav__link">
         
   
   
@@ -1258,7 +1258,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Design%20Thinking/mapa_mental/" class="md-nav__link">
+      <a href="../../../Design%20Thinking/mapa_mental/" class="md-nav__link">
         
   
   
@@ -1286,7 +1286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Design%20Thinking/design_thinking/" class="md-nav__link">
+      <a href="../../../Design%20Thinking/design_thinking/" class="md-nav__link">
         
   
   
@@ -1314,7 +1314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Design Thinking/historia_de_usuario.md" class="md-nav__link">
+      <a href="../../../Design Thinking/historia_de_usuario.md" class="md-nav__link">
         
   
   
@@ -1342,7 +1342,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Design%20Thinking/analise_de_tarefas/" class="md-nav__link">
+      <a href="../../../Design%20Thinking/analise_de_tarefas/" class="md-nav__link">
         
   
   
@@ -1370,7 +1370,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Design%20Thinking/prototipo_baixa_fidelidade/" class="md-nav__link">
+      <a href="../../../Design%20Thinking/prototipo_baixa_fidelidade/" class="md-nav__link">
         
   
   
@@ -1465,7 +1465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Sprint%20Planning/planejamento/" class="md-nav__link">
+      <a href="../../../Sprint%20Planning/planejamento/" class="md-nav__link">
         
   
   
@@ -1493,7 +1493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Sprint%20Planning/product_backlog/" class="md-nav__link">
+      <a href="../../../Sprint%20Planning/product_backlog/" class="md-nav__link">
         
   
   
@@ -1521,7 +1521,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Sprint%20Planning/sprint_backlog/" class="md-nav__link">
+      <a href="../../../Sprint%20Planning/sprint_backlog/" class="md-nav__link">
         
   
   
@@ -1549,7 +1549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Sprint%20Planning/definicao_de_pronto/" class="md-nav__link">
+      <a href="../../../Sprint%20Planning/definicao_de_pronto/" class="md-nav__link">
         
   
   
@@ -1605,111 +1605,111 @@
   
 
 
-<h1 id="11-filtros-basicos">11 - Filtros Básicos<a class="headerlink" href="#11-filtros-basicos" title="Permanent link">&para;</a></h1>
-<p>Até agora tínhamos todos os países visíveis. Neste módulo, o foco é implementar a <strong>primeira camada de filtros</strong>: busca por nome em tempo real e filtro por região. Persistência (localStorage) e consolidação avançada ficam para módulos posteriores.</p>
-<h2 id="objetivos-do-modulo">Objetivos do Módulo<a class="headerlink" href="#objetivos-do-modulo" title="Permanent link">&para;</a></h2>
+<h1 id="react-com-html-e-cdn"><strong>React com HTML e CDN</strong><a class="headerlink" href="#react-com-html-e-cdn" title="Permanent link">&para;</a></h1>
+<p>Apresentar os conceitos básicos do React e como integrá-lo em uma página HTML utilizando um link para a CDN, sem a necessidade de um ambiente de desenvolvimento local como o Node.js.</p>
+<hr />
+<h4 id="1-introducao-ao-react"><strong>1. Introdução ao React</strong><a class="headerlink" href="#1-introducao-ao-react" title="Permanent link">&para;</a></h4>
+<p><strong>Definição</strong>: React é uma biblioteca JavaScript criada pelo Facebook para criar interfaces de usuário de forma declarativa e eficiente.</p>
+<p><strong>Vantagens</strong>:</p>
 <ul>
-<li>Implementar busca por texto em tempo real</li>
-<li>Implementar filtro por região</li>
-<li>Combinar busca e região em uma única filtragem</li>
-<li>Mostrar quantidade de resultados de forma clara</li>
+<li>Componentes reutilizáveis</li>
+<li>Atualizações rápidas do DOM (Virtual DOM)</li>
+<li>Facilita a criação de Single Page Applications (SPAs)</li>
 </ul>
-<h2 id="pre-requisitos">Pré-requisitos<a class="headerlink" href="#pre-requisitos" title="Permanent link">&para;</a></h2>
+<p><strong>Virtual DOM</strong>:<br />
+O Virtual DOM é uma representação leve da estrutura real do DOM mantida na memória pelo React. Quando o estado de um componente muda, o React atualiza primeiro o Virtual DOM, compara as diferenças com o DOM real (processo chamado de "reconciliation") e aplica apenas as alterações necessárias. Isso torna as atualizações de interface mais rápidas e eficientes, pois evita manipulações desnecessárias do DOM real.</p>
+<hr />
+<h4 id="comparacao-react-vs-javascript-vanilla"><strong>Comparação: React vs JavaScript Vanilla</strong><a class="headerlink" href="#comparacao-react-vs-javascript-vanilla" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Característica</th>
+<th>React</th>
+<th>JavaScript Vanilla</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Manipulação do DOM</td>
+<td>Utiliza Virtual DOM para otimizar mudanças</td>
+<td>Manipulação direta do DOM</td>
+</tr>
+<tr>
+<td>Organização do código</td>
+<td>Baseado em componentes reutilizáveis</td>
+<td>Estrutura livre, menos modularidade</td>
+</tr>
+<tr>
+<td>Atualização de interface</td>
+<td>Automática via estado e props</td>
+<td>Manual, exige mais código</td>
+</tr>
+<tr>
+<td>Aprendizado</td>
+<td>Requer aprender conceitos próprios</td>
+<td>Conhecimento básico de JS suficiente</td>
+</tr>
+<tr>
+<td>Escalabilidade</td>
+<td>Ideal para projetos grandes e SPAs</td>
+<td>Mais indicado para projetos simples</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exemplo de atualização de conteúdo:</strong></p>
+<p><em>JavaScript Vanilla:</em>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;root&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;root&#39;</span><span class="p">).</span><span class="nx">innerText</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">&#39;Hello, World!&#39;</span><span class="p">;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></code></pre></div></p>
+<p><em>React:</em>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="nx">React</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;h1&#39;</span><span class="p">,</span><span class="w"> </span><span class="kc">null</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Hello, World!&#39;</span><span class="p">),</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;root&#39;</span><span class="p">)</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="p">);</span>
+</span></code></pre></div></p>
+<hr />
+<h4 id="2-preparando-o-ambiente"><strong>2. Preparando o Ambiente</strong><a class="headerlink" href="#2-preparando-o-ambiente" title="Permanent link">&para;</a></h4>
 <ul>
-<li>useEffect para carregamento de dados</li>
-<li>useState para estado local</li>
-<li>map e filter em arrays</li>
+<li>Não é necessário instalar nada localmente para este exemplo inicial, vamos usar uma página HTML e um link para a biblioteca via CDN.</li>
 </ul>
-<h2 id="conceito-principal">Conceito Principal<a class="headerlink" href="#conceito-principal" title="Permanent link">&para;</a></h2>
-<p>Filtros básicos são regras de exibição. O dado original permanece inteiro, e a interface mostra apenas o subconjunto correspondente aos critérios ativos.</p>
-<h2 id="exemplo-guiado">Exemplo Guiado<a class="headerlink" href="#exemplo-guiado" title="Permanent link">&para;</a></h2>
-<div class="language-jsx highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">useEffect</span><span class="p">,</span><span class="w"> </span><span class="nx">useState</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;react&#39;</span><span class="p">;</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kd">function</span><span class="w"> </span><span class="nx">App</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">countries</span><span class="p">,</span><span class="w"> </span><span class="nx">setCountries</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useState</span><span class="p">([]);</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">searchTerm</span><span class="p">,</span><span class="w"> </span><span class="nx">setSearchTerm</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useState</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">);</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">selectedRegion</span><span class="p">,</span><span class="w"> </span><span class="nx">setSelectedRegion</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useState</span><span class="p">(</span><span class="s1">&#39;all&#39;</span><span class="p">);</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">isLoading</span><span class="p">,</span><span class="w"> </span><span class="nx">setIsLoading</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useState</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="p">[</span><span class="nx">error</span><span class="p">,</span><span class="w"> </span><span class="nx">setError</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">useState</span><span class="p">(</span><span class="kc">null</span><span class="p">);</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="w">  </span><span class="nx">useEffect</span><span class="p">(()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">loadCountries</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">async</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">      </span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;https://restcountries.com/v3.1/all&#39;</span><span class="p">);</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="nx">response</span><span class="p">.</span><span class="nx">ok</span><span class="p">)</span><span class="w"> </span><span class="k">throw</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="ne">Error</span><span class="p">(</span><span class="s1">&#39;Falha ao carregar dados&#39;</span><span class="p">);</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">        </span><span class="kd">const</span><span class="w"> </span><span class="nx">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">        </span><span class="nx">setCountries</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">      </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="nx">err</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="nx">setError</span><span class="p">(</span><span class="nx">err</span><span class="p">.</span><span class="nx">message</span><span class="p">);</span>
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">      </span><span class="p">}</span><span class="w"> </span><span class="k">finally</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="w">        </span><span class="nx">setIsLoading</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">      </span><span class="p">}</span>
-</span><span id="__span-0-22"><a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="w">    </span><span class="p">};</span>
-</span><span id="__span-0-23"><a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>
-</span><span id="__span-0-24"><a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a><span class="w">    </span><span class="nx">loadCountries</span><span class="p">();</span>
-</span><span id="__span-0-25"><a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a><span class="w">  </span><span class="p">},</span><span class="w"> </span><span class="p">[]);</span>
-</span><span id="__span-0-26"><a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>
-</span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">filteredCountries</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">countries</span><span class="p">.</span><span class="nx">filter</span><span class="p">((</span><span class="nx">country</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-28"><a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">country</span><span class="p">.</span><span class="nx">name</span><span class="p">.</span><span class="nx">common</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">();</span>
-</span><span id="__span-0-29"><a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">matchesSearch</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">name</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="nx">searchTerm</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">());</span>
-</span><span id="__span-0-30"><a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a><span class="w">    </span><span class="kd">const</span><span class="w"> </span><span class="nx">matchesRegion</span><span class="w"> </span><span class="o">=</span>
-</span><span id="__span-0-31"><a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a><span class="w">      </span><span class="nx">selectedRegion</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s1">&#39;all&#39;</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="nx">country</span><span class="p">.</span><span class="nx">region</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="nx">selectedRegion</span><span class="p">;</span>
-</span><span id="__span-0-32"><a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">matchesSearch</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">matchesRegion</span><span class="p">;</span>
-</span><span id="__span-0-33"><a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a><span class="w">  </span><span class="p">});</span>
-</span><span id="__span-0-34"><a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>
-</span><span id="__span-0-35"><a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a><span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">isLoading</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="nx">Carregando</span><span class="p">...&lt;/</span><span class="nt">p</span><span class="p">&gt;;</span>
-</span><span id="__span-0-36"><a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a><span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">error</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="nx">Erro</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="nx">error</span><span class="p">}&lt;/</span><span class="nt">p</span><span class="p">&gt;;</span>
-</span><span id="__span-0-37"><a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>
-</span><span id="__span-0-38"><a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a><span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="p">(</span>
-</span><span id="__span-0-39"><a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a><span class="w">    </span><span class="p">&lt;</span><span class="nt">div</span><span class="p">&gt;</span>
-</span><span id="__span-0-40"><a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a><span class="w">      </span><span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span><span class="nx">Filtros</span><span class="w"> </span><span class="nx">Básicos</span><span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
-</span><span id="__span-0-41"><a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>
-</span><span id="__span-0-42"><a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a><span class="w">      </span><span class="p">&lt;</span><span class="nt">input</span>
-</span><span id="__span-0-43"><a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a><span class="w">        </span><span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span>
-</span><span id="__span-0-44"><a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a><span class="w">        </span><span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">searchTerm</span><span class="p">}</span>
-</span><span id="__span-0-45"><a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a><span class="w">        </span><span class="na">onChange</span><span class="o">=</span><span class="p">{(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">setSearchTerm</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">value</span><span class="p">)}</span>
-</span><span id="__span-0-46"><a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a><span class="w">        </span><span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;Buscar país&quot;</span>
-</span><span id="__span-0-47"><a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a><span class="w">      </span><span class="p">/&gt;</span>
-</span><span id="__span-0-48"><a id="__codelineno-0-48" name="__codelineno-0-48" href="#__codelineno-0-48"></a>
-</span><span id="__span-0-49"><a id="__codelineno-0-49" name="__codelineno-0-49" href="#__codelineno-0-49"></a><span class="w">      </span><span class="p">&lt;</span><span class="nt">select</span>
-</span><span id="__span-0-50"><a id="__codelineno-0-50" name="__codelineno-0-50" href="#__codelineno-0-50"></a><span class="w">        </span><span class="na">value</span><span class="o">=</span><span class="p">{</span><span class="nx">selectedRegion</span><span class="p">}</span>
-</span><span id="__span-0-51"><a id="__codelineno-0-51" name="__codelineno-0-51" href="#__codelineno-0-51"></a><span class="w">        </span><span class="na">onChange</span><span class="o">=</span><span class="p">{(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">setSelectedRegion</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">value</span><span class="p">)}</span>
-</span><span id="__span-0-52"><a id="__codelineno-0-52" name="__codelineno-0-52" href="#__codelineno-0-52"></a><span class="w">      </span><span class="p">&gt;</span>
-</span><span id="__span-0-53"><a id="__codelineno-0-53" name="__codelineno-0-53" href="#__codelineno-0-53"></a><span class="w">        </span><span class="p">&lt;</span><span class="nt">option</span><span class="w"> </span><span class="na">value</span><span class="o">=</span><span class="s">&quot;all&quot;</span><span class="p">&gt;</span><span class="nx">Todas</span><span class="w"> </span><span class="kr">as</span><span class="w"> </span><span class="nx">regiões</span><span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
-</span><span id="__span-0-54"><a id="__codelineno-0-54" name="__codelineno-0-54" href="#__codelineno-0-54"></a><span class="w">        </span><span class="p">&lt;</span><span class="nt">option</span><span class="w"> </span><span class="na">value</span><span class="o">=</span><span class="s">&quot;Africa&quot;</span><span class="p">&gt;</span><span class="nx">África</span><span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
-</span><span id="__span-0-55"><a id="__codelineno-0-55" name="__codelineno-0-55" href="#__codelineno-0-55"></a><span class="w">        </span><span class="p">&lt;</span><span class="nt">option</span><span class="w"> </span><span class="na">value</span><span class="o">=</span><span class="s">&quot;Americas&quot;</span><span class="p">&gt;</span><span class="nx">Américas</span><span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
-</span><span id="__span-0-56"><a id="__codelineno-0-56" name="__codelineno-0-56" href="#__codelineno-0-56"></a><span class="w">        </span><span class="p">&lt;</span><span class="nt">option</span><span class="w"> </span><span class="na">value</span><span class="o">=</span><span class="s">&quot;Asia&quot;</span><span class="p">&gt;</span><span class="nx">Ásia</span><span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
-</span><span id="__span-0-57"><a id="__codelineno-0-57" name="__codelineno-0-57" href="#__codelineno-0-57"></a><span class="w">        </span><span class="p">&lt;</span><span class="nt">option</span><span class="w"> </span><span class="na">value</span><span class="o">=</span><span class="s">&quot;Europe&quot;</span><span class="p">&gt;</span><span class="nx">Europa</span><span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
-</span><span id="__span-0-58"><a id="__codelineno-0-58" name="__codelineno-0-58" href="#__codelineno-0-58"></a><span class="w">        </span><span class="p">&lt;</span><span class="nt">option</span><span class="w"> </span><span class="na">value</span><span class="o">=</span><span class="s">&quot;Oceania&quot;</span><span class="p">&gt;</span><span class="nx">Oceania</span><span class="p">&lt;/</span><span class="nt">option</span><span class="p">&gt;</span>
-</span><span id="__span-0-59"><a id="__codelineno-0-59" name="__codelineno-0-59" href="#__codelineno-0-59"></a><span class="w">      </span><span class="p">&lt;/</span><span class="nt">select</span><span class="p">&gt;</span>
-</span><span id="__span-0-60"><a id="__codelineno-0-60" name="__codelineno-0-60" href="#__codelineno-0-60"></a>
-</span><span id="__span-0-61"><a id="__codelineno-0-61" name="__codelineno-0-61" href="#__codelineno-0-61"></a><span class="w">      </span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span><span class="nx">Resultados</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="nx">filteredCountries</span><span class="p">.</span><span class="nx">length</span><span class="p">}&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-</span><span id="__span-0-62"><a id="__codelineno-0-62" name="__codelineno-0-62" href="#__codelineno-0-62"></a>
-</span><span id="__span-0-63"><a id="__codelineno-0-63" name="__codelineno-0-63" href="#__codelineno-0-63"></a><span class="w">      </span><span class="p">&lt;</span><span class="nt">ul</span><span class="p">&gt;</span>
-</span><span id="__span-0-64"><a id="__codelineno-0-64" name="__codelineno-0-64" href="#__codelineno-0-64"></a><span class="w">        </span><span class="p">{</span><span class="nx">filteredCountries</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">country</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">(</span>
-</span><span id="__span-0-65"><a id="__codelineno-0-65" name="__codelineno-0-65" href="#__codelineno-0-65"></a><span class="w">          </span><span class="p">&lt;</span><span class="nt">li</span><span class="w"> </span><span class="na">key</span><span class="o">=</span><span class="p">{</span><span class="nx">country</span><span class="p">.</span><span class="nx">cca3</span><span class="p">}&gt;{</span><span class="nx">country</span><span class="p">.</span><span class="nx">name</span><span class="p">.</span><span class="nx">common</span><span class="p">}&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
-</span><span id="__span-0-66"><a id="__codelineno-0-66" name="__codelineno-0-66" href="#__codelineno-0-66"></a><span class="w">        </span><span class="p">))}</span>
-</span><span id="__span-0-67"><a id="__codelineno-0-67" name="__codelineno-0-67" href="#__codelineno-0-67"></a><span class="w">      </span><span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
-</span><span id="__span-0-68"><a id="__codelineno-0-68" name="__codelineno-0-68" href="#__codelineno-0-68"></a><span class="w">    </span><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span><span id="__span-0-69"><a id="__codelineno-0-69" name="__codelineno-0-69" href="#__codelineno-0-69"></a><span class="w">  </span><span class="p">);</span>
-</span><span id="__span-0-70"><a id="__codelineno-0-70" name="__codelineno-0-70" href="#__codelineno-0-70"></a><span class="p">}</span>
-</span><span id="__span-0-71"><a id="__codelineno-0-71" name="__codelineno-0-71" href="#__codelineno-0-71"></a>
-</span><span id="__span-0-72"><a id="__codelineno-0-72" name="__codelineno-0-72" href="#__codelineno-0-72"></a><span class="k">export</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="nx">App</span><span class="p">;</span>
+<hr />
+<h4 id="3-estrutura-basica-do-projeto"><strong>3. Estrutura Básica do Projeto</strong><a class="headerlink" href="#3-estrutura-basica-do-projeto" title="Permanent link">&para;</a></h4>
+<p><strong>HTML Básico</strong></p>
+<ul>
+<li>Comece com a criação de uma página HTML simples contendo um elemento <code>&lt;div&gt;</code> que será usado como “ponto de montagem” para o React.</li>
+</ul>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>   <span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>   <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>   <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>     <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>     <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width, initial-scale=1.0&quot;</span><span class="p">&gt;</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>     <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>React Introdução<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>   <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>   <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>     <span class="cm">&lt;!-- Div onde o React renderizará o conteúdo --&gt;</span>
+</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>     <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;root&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>     <span class="cm">&lt;!-- Scripts do React via CDN --&gt;</span>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>     <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://unpkg.com/react@17/umd/react.production.min.js&quot;</span> <span class="na">crossorigin</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>     <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://unpkg.com/react-dom@17/umd/react-dom.production.min.js&quot;</span> <span class="na">crossorigin</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>     <span class="cm">&lt;!-- Nosso script JavaScript --&gt;</span>
+</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>     <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;app.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>   <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>   <span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </span></code></pre></div>
-<h2 id="exercicio-pratico">Exercício Prático<a class="headerlink" href="#exercicio-pratico" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Adicione um botão para limpar busca e região.</li>
-<li>Mostre uma mensagem quando nenhum país for encontrado.</li>
-<li>Exiba no cabeçalho o filtro ativo.</li>
-</ol>
-<h2 id="erros-comuns">Erros Comuns<a class="headerlink" href="#erros-comuns" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Filtrar a lista original e sobrescrever countries</li>
-<li>Aplicar filtro de região com valores diferentes dos retornados pela API</li>
-<li>Esquecer de tratar estado de loading e erro</li>
-</ul>
-<h2 id="proximo-passo">Próximo Passo<a class="headerlink" href="#proximo-passo" title="Permanent link">&para;</a></h2>
-<p>No próximo módulo você vai persistir favoritos com localStorage, mantendo os filtros deste módulo.</p>
+<hr />
+<h4 id="4-criando-um-elemento-react"><strong>4. Criando um Elemento React</strong><a class="headerlink" href="#4-criando-um-elemento-react" title="Permanent link">&para;</a></h4>
+<p>Crie o arquivo <code>app.js</code> com o seguinte código:</p>
+<div class="language-javascript highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="w">   </span><span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="nx">React</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">        </span><span class="s1">&#39;h1&#39;</span><span class="p">,</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">        </span><span class="kc">null</span><span class="p">,</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">        </span><span class="s1">&#39;Hello, World!&#39;</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="p">),</span>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;root&#39;</span><span class="p">))</span>
+</span></code></pre></div>
 
 
 
@@ -1774,16 +1774,16 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow", "toc.integrate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.code.copy", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.path", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow", "toc.integrate"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../assets/mkdocs_puml/puml.js"></script>
+        <script src="../../../assets/mkdocs_puml/puml.js"></script>
       
         <script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
       
-        <script src="../../assets/mkdocs_puml/interaction.js"></script>
+        <script src="../../../assets/mkdocs_puml/interaction.js"></script>
       
     
   </body>
