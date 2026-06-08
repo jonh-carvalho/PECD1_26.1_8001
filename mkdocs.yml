@@ -18,12 +18,12 @@ nav:
               - 7 - Eventos: React\07_Eventos_e_Forms.md
               - 8 - Listas: React\08_Listas__Render_Condicional.md
               - 9 - Http Api: React\09_HTTP_APIs.md
-#              - 10 - useEffect: React\10_useEffect.md
-#              - 11 - Filtros Básicos: React\11_Filtros_Basicos.md
-#              - 12 - Favoritos e Persistência: React\12_Favoritos_localStorage.md
-#              - 13 - Busca Avançada e Refinamentos: React\13_Filtros_Busca.md
-#              - 14 - Rotas (React Router): React\14_Rotas_ReactRouter.md
-#              - 15 - Estilização Avançada: React\15_Estilizacao_Avancada.md
+              - 10 - useEffect: React\10_useEffect.md
+              - 11 - Filtros Básicos: React\11_Filtros_Basicos.md
+              - 12 - Favoritos e Persistência: React\12_Favoritos_localStorage.md
+              - 13 - Busca Avançada e Refinamentos: React\13_Filtros_Busca.md
+              - 14 - Rotas (React Router): React\14_Rotas_ReactRouter.md
+              - 15 - Estilização Avançada: React\15_Estilizacao_Avancada.md
       - Ambiente: Disciplina/ambiente.md
       - Github: Disciplina/github.md
       - Mkdocs: Disciplina/mkdocs.md
@@ -34,7 +34,8 @@ nav:
           - Sprint Planning: Disciplina/Roteiros/07_receitas.md
           - Epic, Feature, User Story: Disciplina/Roteiros/07_epics_features_user_stories.md
           - Protótipo de Baixa Fidelidade: Disciplina/Roteiros/07_proto.md
-#          - JSON Server (CadProj): Disciplina/Roteiros/09_json_server_cadproj.md
+          - JSON Server (CadProj): Disciplina/Roteiros/16_json_server_cadproj.md
+          - Router (React Router): Disciplina/Roteiros/16_router.md
   
   - Design Thinking:
       - Index: Design Thinking/index.md
